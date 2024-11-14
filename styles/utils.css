@@ -1,0 +1,58 @@
+:root {
+    --background: #F4F4F4;
+    --sub-text: #888888;
+    --main-text: #000;
+    --cards-background: #fff;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+
+.container {
+    max-width: 1920px;
+    margin-inline: auto;
+}
+
+.subtitle {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--sub-text);
+    font-size: 14px;
+}
+
+.title {
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.description {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.wide-card {
+    max-width: 670px;
+}
+
+.narrow-card {
+    max-width: 470px;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+}
