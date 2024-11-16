@@ -3,6 +3,7 @@
     --sub-text: #888888;
     --main-text: #000;
     --cards-background: #fff;
+    --container-background: #000;
 }
 
 .visually-hidden {
@@ -22,6 +23,7 @@
 .container {
     max-width: 1920px;
     margin-inline: auto;
+    margin-bottom: 60px;
 }
 
 .subtitle {
@@ -52,7 +54,10 @@
     max-width: 470px;
 }
 
-button {
-    background-color: transparent;
-    border: none;
+.slider-top {
+    align-items: end;
+}
+
+.slider-bottom {
+    align-items: start;
 }

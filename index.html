@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Matterful</title>
     <link rel="stylesheet" href="/styles/style.css">
+    <script src="/app.js" defer></script>
 </head>
 <body>
     <main class="content">
@@ -17,7 +18,7 @@
             </p>
         </section>
     
-        <section class="home-featured">
+        <section class="home-featured container">
             <h2 class="visually-hidden">Featured case</h2>
             <div class="home-featured__info">
                 <p class="home-featured__subtitle subtitle">Featured Case Study</p>
@@ -108,20 +109,245 @@
                     </article>
 
                     <article class="home-tiles__testimonials-slider narrow-card">
-                            <button class="button previous-button"><img src="/icons/previous-button.svg" alt=""></button>
+                            <button class="previous-button"><img src="/icons/previous-button.svg" alt=""></button>
                             <div class="home-tiles__testimonial">
                                 <img class="home-tiles__testimonial-author-img" src="/images/tiles-cards/natasha-200x200.jpg.png" alt="">
                                 <p class="home-tiles__testimonial-author-name title">Natasha Lichty</p>
                                 <p class="home-tiles__testimonial-author-subtitle subtitle">Marketing Director, Love Beets</p>
                                 <p class="home-tiles__testimonial-description description">Matterful is more than just another design shop looking for another project - they REALLY care about the success of their clients. On many occasions, Matterful has come through in the clutch. We surely wouldn't have been able to grow at the pace we have without their hard work, guidance and dedication.</p>
                             </div>
-                            <button class="button next-button"><img src="/icons/button.svg" alt=""></button>
+                            <button class="next-button"><img src="/icons/button.svg" alt=""></button>
+                    </article>
+                </div>
+
+                <div class="home-tiles__flexrow">
+                    <article class="home-tiles__card">
+                        <img class="home-tiles__wide-card-img" src="/images/tiles-cards/home-love-beets.jpg.png" alt="">
+                        <div class="home-tiles__info">
+                            <p class="home-tiles__subtitle subtitle">Packaging Design</p>
+                            <p class="home-tiles__title title">Love Beets</p>
+                            <p class="home-titles__description description">Matterful recently helped Love Beets design an eco-friendly version of packaging design for their popular Cooked Beets sku. Look-out for these fun and whimsical packs in Target, Costco and other high-profile retailers nationwide!</p>    
+                        </div>
+                    </article>
+
+                    <article class="home-tiles__card">
+                        <img class="home-tiles__narrow-card-img" src="/images/tiles-cards/home-purpose-snackery.jpg.png" alt="">
                     </article>
                 </div>
 
             </div>
         </section>
+
+        <section class="social-gallery container">
+            <h2 class="visually-hidden">Social Gallery</h2>
+            <article class="social-gallery__intro">
+                <img class="social-gallery__logo" src="/icons/social-gallery-logo.svg" alt="">
+                <h2 class="social-gallery__title title">@matterfulbrands</h2>
+                <p class="social-gallery__description description">Get a behind the scenes look at how our Matterful Brands team is movin’ & shaking in both the studio and out in the field!</p>
+            </article>
+
+            <article class="social-gallery__content">
+                <ul class="social-gallery__slider slider-top">
+                    <li class="social-gallery__item">
+                        <img src="/images/social-gallery/1.png" alt="" class="social-gallery__img">
+                    </li>
+                    <li class="social-gallery__item">
+                        <img src="/images/social-gallery/2.png" alt="" class="social-gallery__img">
+                    </li>
+                    <li class="social-gallery__item">
+                        <img src="/images/social-gallery/3.png" alt="" class="social-gallery__img">
+                    </li>
+                    <li class="social-gallery__item">
+                        <img src="/images/social-gallery/4.png" alt="" class="social-gallery__img">
+                    </li>
+                    <li class="social-gallery__item">
+                        <img src="/images/social-gallery/5.png" alt="" class="social-gallery__img">
+                    </li>
+                </ul>
+                <ul class="social-gallery__slider slider-bottom">
+                    <li class="social-gallery__item">
+                        <img src="/images/social-gallery/6.png" alt="" class="social-gallery__img">
+                    </li>
+                    <li class="social-gallery__item">
+                        <img src="/images/social-gallery/7.png" alt="" class="social-gallery__img">
+                    </li>
+                    <li class="social-gallery__item">
+                        <img src="/images/social-gallery/8.png" alt="" class="social-gallery__img">
+                    </li>
+                    <li class="social-gallery__item">
+                        <img src="/images/social-gallery/9.png" alt="" class="social-gallery__img">
+                    </li>
+                    <li class="social-gallery__item">
+                        <img src="/images/social-gallery/10.png" alt="" class="social-gallery__img">
+                    </li>
+                </ul>
+            </article>
+        </section>
+
+        <section class="services container">
+            <h2 class="visually-hidden">Services List</h2>
+            <article class="services__intro">
+                <h2 class="services__header title">Our Brand Pollination™ Services</h2>
+                <p class="services__description description">We offer a wide range of proven creative services that help grow your brand in a meaningful and matterful way.</p>
+            </article>
+            <ul class="services__list">
+                <li class="services__item">
+                    <img src="/icons/services-icons/naming-&-strategy.svg" alt="" class="services__logo">
+                    <p class="services__title title">naming & strategy</p>
+                </li>
+                <li class="services__item">
+                    <img src="/icons/services-icons/branding.svg" alt="" class="services__logo">
+                    <p class="services__title title">branding</p>
+                </li>
+                <li class="services__item">
+                    <img src="/icons/services-icons/packaging-design.svg" alt="" class="services__logo">
+                    <p class="services__title title">packaging design</p>
+                </li>
+                <li class="services__item">
+                    <img src="/icons/services-icons/photo-&-video.svg" alt="" class="services__logo">
+                    <p class="services__title title">photo & video</p>
+                </li>
+                <li class="services__item">
+                    <img src="/icons/services-icons/web-design.svg" alt="" class="services__logo">
+                    <p class="services__title title">web design</p>
+                </li>
+                <li class="services__item">
+                    <img src="/icons/services-icons/trade-show-design.svg" alt="" class="services__logo">
+                    <p class="services__title title">trade show design</p>
+                </li>
+                <li class="services__item">
+                    <img src="/icons/services-icons/content-creation.svg" alt="" class="services__logo">
+                    <p class="services__title title">content creation</p>
+                </li>
+                <li class="services__item">
+                    <img src="/icons/services-icons/ongoing-support.svg" alt="" class="services__logo">
+                    <p class="services__title title">ongoing support</p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="client-list">
+            <h2 class="visually-hidden">Client List</h2>
+            <p class="client-list__intro title">We help small emerging brands invent themselves, and fortune 500 companies re-invent themselves. Here’s a look at some of our clients:</p>
+            <ul class="client-list__list">
+                <li class="client-list__item">
+                    <img src="/images/client-list/1.png" alt="" class="client-list__img">
+                </li>
+                <li class="client-list__item">
+                    <img src="/images/client-list/2.png" alt="" class="client-list__img">
+                </li>
+                <li class="client-list__item">
+                    <img src="/images/client-list/3.png" alt="" class="client-list__img">
+                </li>
+                <li class="client-list__item">
+                    <img src="/images/client-list/4.png" alt="" class="client-list__img">
+                </li>
+                <li class="client-list__item">
+                    <img src="/images/client-list/5.png" alt="" class="client-list__img">
+                </li>
+                <li class="client-list__item">
+                    <img src="/images/client-list/6.png" alt="" class="client-list__img">
+                </li>
+                <li class="client-list__item">
+                    <img src="/images/client-list/7.png" alt="" class="client-list__img">
+                </li>
+                <li class="client-list__item">
+                    <img src="/images/client-list/8.png" alt="" class="client-list__img">
+                </li>
+                <li class="client-list__item">
+                    <img src="/images/client-list/9.png" alt="" class="client-list__img">
+                </li>
+                <li class="client-list__item">
+                    <img src="/images/client-list/10.png" alt="" class="client-list__img">
+                </li>
+                <li class="client-list__item">
+                    <img src="/images/client-list/11.png" alt="" class="client-list__img">
+                </li>
+                <li class="client-list__item">
+                    <img src="/images/client-list/12.png" alt="" class="client-list__img">
+                </li>
+            </ul>
+            <p class="client-list__button-description">expand to view more</p>
+            <button class="client-list__button-expand"></button>
+        </section>
+
+        <section class="pollen-locations">
+            <h2 class="visually-hidden">Pollen Locations</h2>
+                <article class="pollen-locations__pollen-location" data-location="los-angeles">
+                    <p class="pollen-locations__title title">California Dreaming in Sunny SoCal</p>
+                    <div class="pollen-locations__location">
+                        <p class="pollen-locations__city">Los Angeles, California</p>
+                        <p class="pollen-locations__address">901 Hermosa Ave</p>
+                    </div>
+                </article>
+
+                <article class="pollen-locations__pollen-location" data-location="monterey">
+                    <p class="pollen-locations__title title">California Dreaming in Sunny SoCal</p>
+                    <div class="pollen-locations__location">
+                        <p class="pollen-locations__city">Los Angeles, California</p>
+                        <p class="pollen-locations__address">901 Hermosa Ave</p>
+                    </div>
+                </article>
+        </section>
     </main>
+    <footer class="footer">
+        <section class="contact">
+            <h2 class="visually-hidden">Contact Us</h2>
+            <p class="contact__title title">Interested in working with Matterful Brands?</p>
+            <p class="contact__description description">We are a small team of seasoned do'ers who thoughtfully partner with purposeful food and beverage brands. Our Matterful team is made up of senior-level designers, directors and entrepreneurs who understand first-hand what it takes to get to market at an accelerated pace, without sacrificing quality. Do you have a brand or project that could use some love? Hit the contact button to say hello and tell us more!</p>
+            <button class="contact__button">contact us</button>
+        </section>
+
+        <section class="newsletter container">
+            <h2 class="visually-hidden">Newsletter</h2>
+            <header class="newsletter__header">
+                <h2 class="newsletter__title title">Sign Up for Matterful Updates</h2>
+                <p class="newsletter__text description">Most newsletters suck but ours won't – we promise!</p>
+            </header>
+            <form action="#" class="newsletter__form" >
+                <input type="text" class="newsletter__input" placeholder="Your email address">
+                <button class="newsletter__button">Submit</button>
+            </form>
+        </section>
+
+        <section class="footer-content">
+            <img class="footer-content__logo" src="/images/matterful-logo-intro.svg" alt="">
+            <article class="footer-content__company-info">
+                <h2 class="visually-hidden">Adresses and socials</h2>
+                <article class="footer-content__address">
+                    <img class="footer-content__clock" src="/images/clocksLA.svg" alt="">
+                    <div class="footer-content__address-description">
+                        <h2 class="footer-content__address-city">Los Angeles</h2>
+                        <p class="footer-content__address-state">CA</p>
+                        <p class="footer-content__address-street">901 Hermosa Ave, Hermosa Beach, CA 90254</p>
+                    </div>
+                </article>
+                <article class="footer-content__address">
+                    <img class="footer-content__clock" src="/images/clocksNY.svg" alt="">
+                    <div class="footer-content__address-description">
+                        <h2 class="footer-content__address-city">Manhattan</h2>
+                        <p class="footer-content__address-state">NY</p>
+                        <p class="footer-content__address-street">601 W 26th St, Suite 325 - 12, New York, NY 10001</p>
+                    </div>
+                </article>
+                <article class="footer-content__socials">
+                    <p class="footer-content__social-title">Have a big idea? Let's talk!</p>
+                    <a href="emailto:contact@matterfulbrands.com">contact@matterfulbrands.com</a>
+                    <ul class="footer-content__social-list">
+                        <li class="footer-content__social-item">
+                            <a><img src="facebook.com" alt="" class="footer-content__social-icon" href="/icons/socials/facebook-socials.svg"></a>
+                        </li>
+                        <li class="footer-content__social-item">
+                            <a><img src="instagram.com" alt="" class="footer-content__social-icon" href="/icons/socials/instagram-socials.svg"></a>
+                        </li>
+                        <li class="footer-content__social-item">
+                            <a href="x.com"><img src="" alt="" class="footer-content__social-icon" href="/icons/socials/x-socials.svg"></a>
+                        </li>
+                    </ul>
+                </article>
+            </article>
+        </section>
+    </footer>
     
 </body>
 </html>
