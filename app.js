@@ -1,5 +1,5 @@
 function setBackgroundImage(element, type, image) {
-    element.style.backgroundImage = `url(/images/${type}/${image}.png)`;
+    element.style.backgroundImage = `url(./images/${type}/${image}.png)`;
 }
 
 function setPollenLocationBackground() {

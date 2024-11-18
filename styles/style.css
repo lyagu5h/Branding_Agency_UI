@@ -1,6 +1,6 @@
-@import url(/styles/fonts.css);
-@import url(/styles/utils.css);
-@import url(/styles/normalize.css);
+@import url(./fonts.css);
+@import url(./utils.css);
+@import url(./normalize.css);
 
 body {
     background-color: var(--background);
@@ -39,7 +39,7 @@ body::-webkit-scrollbar-track {
 }
 
 .home-featured {
-    background-image: url(/images/home-featured-container-background.png);
+    background-image: url(../images/home-featured-container-background.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
