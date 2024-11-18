@@ -10,4 +10,16 @@ function setPollenLocationBackground() {
     }
 }
 
+function comparisonSlider() {
+    const sliders = document.querySelectorAll('.comparison-slider');
+    const comparisonCards = document.querySelectorAll('.comparison-card');
+    console.log(sliders);
+    sliders.forEach((slider, index) => {
+        slider.addEventListener('input', (event) => {
+            comparisonCards[index].style.setProperty('--position', `${event.target.value}%`);
+        })
+    })
+}
+
+comparisonSlider();
 setPollenLocationBackground();
