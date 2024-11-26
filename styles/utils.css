@@ -41,21 +41,21 @@
 .title {
     font-family: 'Playfair Display', sans-serif;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 1.875rem;
 }
 
 .description {
     font-family: 'Montserrat', sans-serif;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .wide-card {
-    max-width: 670px;
+    max-width: 41.875rem;
 }
 
 .narrow-card {
-    max-width: 470px;
+    max-width: 29.375rem;
 }
 
 .slider-top {
@@ -64,4 +64,14 @@
 
 .slider-bottom {
     align-items: start;
+}
+
+@media (max-width: 1024px) {
+    .wide-card {
+        max-width: 100%;
+    }
+    
+    .narrow-card {
+        max-width: 100%;
+    }
 }
